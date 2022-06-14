@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normilize.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <title>Rest countries API</title>
+</head>
+<body>
+
+  <h1 style="display:none;">Site begin</h1>
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <a class="site-logo-link" href="./index.html">
+          Where in the world?
+        </a>
+
+        <button class="button" type="submit"> Dark Mode</button>
+      </div>
+    </div>
+  </header>
+  <h2 style="display: none;">main section start</h2>
+  <main>
+    <section class="intro">
+      <div class="container">
+        <div class="labels">
+          <input class="input" type="search" name="search" aria-label="Search for a country…" placeholder="Search for a country…">
+          <select class="select">
+            <option value="Filter by Region">Filter by Region</option>
+            <option value="africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </div>
+        <ul class="intro-list">
+          <li class="intro-list-items top">
+            <img class="item-img" src="./images/flag-germany.jpg"
+            srcset="./images/flag-germany.jpg 1x, ./images/flag-germany@2x.jpg 2x"
+            width="264" height="160" alt="German flag">
+            <div class="item-info">
+              <h3 class="item-title">Germany</h3>
+              <p class="item-text"><strong>Population:</strong> 81,770,900</p>
+              <p class="item-text middle-text"><strong>Region:</strong> Europe</p>
+              <p class="item-text"><strong>Capital:</strong> Berlin</p>
+            </div>
+          </li>
+          <li class="intro-list-items top">
+            <img class="item-img" src="./images/flag-usa.jpg"
+            srcset="./images/flag-usa.jpg 1x, ./images/flag-usa@2x.jpg 2x"
+            width="264" height="160" alt="German flag">
+            <div class="item-info">
+              <h3 class="item-title">United States of America</h3>
+              <p class="item-text"><strong>Population:</strong> 323,947,000</p>
+              <p class="item-text middle-text"><strong>Region:</strong> Americas</p>
+              <p class="item-text"><strong>Capital:</strong> Washishton, D.C.</p>
+            </div>
+          </li>
+          <li class="intro-list-items top">
+            <img class="item-img" src="./images/flag-brazil.jpg"
+            srcset="./images/flag-brazil.jpg 1x, ./images/flag-brazil@2x.jpg 2x"
+            width="264" height="160" alt="German flag">
+            <div class="item-info">
+              <h3 class="item-title">Brazil</h3>
+              <p class="item-text"><strong>Population:</strong>  206,135,893</p>
+              <p class="item-text middle-text"><strong>Region:</strong> Americas</p>
+              <p class="item-text"><strong>Capital:</strong>  Brasília</p>
+            </div>
+          </li>
+          <li class="intro-list-items top">
+            <img class="item-img" src="./images/flag-iceland.jpg"
+            srcset="./images/flag-iceland.jpg 1x, ./images/flag-iceland@2x.jpg 2x"
+            width="264" height="160" alt="German flag">
+            <div class="item-info">
+              <h3 class="item-title">Iceland</h3>
+              <p class="item-text"><strong>Population:</strong> 334,300</p>
+              <p class="item-text middle-text"><strong>Region:</strong> Europe</p>
+              <p class="item-text"><strong>Capital:</strong> Reykjavík</p>
+            </div>
+          </li>
+          <li class="intro-list-items">
+            <img class="item-img" src="./images/flag-afgan.jpg"
+            srcset="./images/flag-afgan.jpg 1x, ./images/flag-afgan@2x.jpg 2x"
+            width="264" height="160" alt="German flag">
+            <div class="item-info">
+              <h3 class="item-title">Afghanistan</h3>
+              <p class="item-text"><strong>Population:</strong> 27,657,145</p>
+              <p class="item-text middle-text"><strong>Region:</strong> Asia</p>
+              <p class="item-text"><strong>Capital:</strong> Kabul</p>
+            </div>
+          </li>
+          <li class="intro-list-items">
+            <img class="item-img" src="./images/aland-island.jpg"
+            srcset="./images/aland-island.jpg 1x, ./images/aland-island@2x.jpg 2x"
+            width="264" height="160" alt="German flag">
+            <div class="item-info">
+              <h3 class="item-title">Åland Islands</h3>
+              <p class="item-text"><strong>Population:</strong> 28,875</p>
+              <p class="item-text middle-text"><strong>Region:</strong> Europe</p>
+              <p class="item-text"><strong>Capital:</strong> Mariehamn</p>
+            </div>
+          </li>
+          <li class="intro-list-items">
+            <img class="item-img" src="./images/albania-flag.jpg"
+            srcset="./images/albania-flag.jpg 1x, ./images/albania-flag@2x@2x.jpg 2x"
+            width="264" height="160" alt="German flag">
+            <div class="item-info">
+              <h3 class="item-title">Albania</h3>
+              <p class="item-text"><strong>Population:</strong> 2,886,026</p>
+              <p class="item-text middle-text"><strong>Region:</strong> Europe</p>
+              <p class="item-text"><strong>Capital:</strong> Tirana</p>
+            </div>
+          </li>
+          <li class="intro-list-items">
+            <img class="item-img" src="./images/algeria-flag.jpg"
+            srcset="./images/algeria-flag.jpg 1x, ./images/algeria-flag@2x.jpg 2x"
+            width="264" height="160" alt="German flag">
+            <div class="item-info">
+              <h3 class="item-title">Algeria</h3>
+              <p class="item-text"><strong>Population:</strong> 40,400,900</p>
+              <p class="item-text middle-text"><strong>Region:</strong> Africa</p>
+              <p class="item-text"><strong>Capital:</strong> Algiers</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
