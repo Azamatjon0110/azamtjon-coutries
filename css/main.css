@@ -235,6 +235,10 @@ body{
   text-decoration: none;
 }
 
+.intro-link{
+  text-decoration: none;
+}
+
 .item-img{
   object-fit: 1;
 }
@@ -300,19 +304,15 @@ body{
     line-height: 16px;
   }
 
-
-
-  /* .input::before{
-    position: absolute;
-    display: block;
-    content: "";
-    width: 16px;
-    height: 16px;
-    background-image: url("../images/search-icon.svg");
-    background-repeat: no-repeat;
-  } */
-
   .intro-list-items{
     margin: 0 auto;
+  }
+
+  .intro-list-items:not(:last-child){
+    margin-bottom: 40px;
+  }
+
+  .colonkas{
+    margin-bottom: 40px;
   }
 }
